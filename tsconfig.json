@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "allowJs": true,
+        "sourceMap": false,
+        "inlineSources": false,
+        "baseUrl": "./src",
+        "noEmit": true
+    },
+    "include": [
+        "./src"
+    ]
+}

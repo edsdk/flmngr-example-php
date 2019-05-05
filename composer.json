@@ -1,0 +1,20 @@
+{
+    "name": "edsdk/flmngr-example-php",
+    "description": "Flmngr file manager example",
+    "version": "1.0.2",
+    "type": "library",
+    "keywords": ["flmngr", "manager", "finder", "imgpen", "image", "photo", "editor", "file", "uploader", "client", "server", "microservice"],
+    "homepage": "https://flmngr.com",
+    "license": "proprietary",
+    "minimum-stability": "stable",
+
+    "authors": [
+        {
+            "name": "EdSDK",
+            "email": "edsdk@edsdk.com"
+        }
+    ],
+    "require": {
+        "edsdk/flmngr-server-php": "1.0.8"
+    }
+}
