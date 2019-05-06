@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c1ee82f20e4ffd8e2532338e1cbc0074",
+    "content-hash": "a61d9a11f67979b5897b55795963dfc0",
     "packages": [
         {
             "name": "edsdk/file-uploader-server-php",
-            "version": "1.0.2",
+            "version": "1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/file-uploader-server-php.git",
-                "reference": "1467cb7c5b73ffbd99b06cb88f035ee75dfbd8a4"
+                "reference": "f7f2a553b2754ae8e143c182a2d4881575b26ec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/file-uploader-server-php/zipball/1467cb7c5b73ffbd99b06cb88f035ee75dfbd8a4",
-                "reference": "1467cb7c5b73ffbd99b06cb88f035ee75dfbd8a4",
+                "url": "https://api.github.com/repos/edsdk/file-uploader-server-php/zipball/f7f2a553b2754ae8e143c182a2d4881575b26ec1",
+                "reference": "f7f2a553b2754ae8e143c182a2d4881575b26ec1",
                 "shasum": ""
             },
             "type": "library",
@@ -45,24 +45,27 @@
                 "server",
                 "upload"
             ],
-            "time": "2019-05-04T11:36:18+00:00"
+            "time": "2019-05-05T14:07:34+00:00"
         },
         {
             "name": "edsdk/flmngr-server-php",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/edsdk/flmngr-server-php.git",
-                "reference": "a0c35b31c16cd63addc3672bd12fc91efd6c4d69"
+                "reference": "41dd8b280658987eeabae1e800bcb81dba349d1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/a0c35b31c16cd63addc3672bd12fc91efd6c4d69",
-                "reference": "a0c35b31c16cd63addc3672bd12fc91efd6c4d69",
+                "url": "https://api.github.com/repos/edsdk/flmngr-server-php/zipball/41dd8b280658987eeabae1e800bcb81dba349d1f",
+                "reference": "41dd8b280658987eeabae1e800bcb81dba349d1f",
                 "shasum": ""
             },
             "require": {
-                "edsdk/file-uploader-server-php": "1.0.2"
+                "edsdk/file-uploader-server-php": "1.0.7",
+                "ext-curl": "*",
+                "ext-gd": "*",
+                "ext-json": "*"
             },
             "type": "library",
             "autoload": {
@@ -91,7 +94,7 @@
                 "server",
                 "upload"
             ],
-            "time": "2019-05-04T13:08:19+00:00"
+            "time": "2019-05-05T14:10:02+00:00"
         }
     ],
     "packages-dev": [],
